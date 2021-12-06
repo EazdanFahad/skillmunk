@@ -1,0 +1,116 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.container{
+	width: 1140px;
+	margin: auto;
+}
+
+a{
+	text-decoration: none;
+}
+
+li{
+	list-style: none;
+}
+
+/****************************
+
+		Section 1 Css
+
+*****************************/
+
+
+
+.head{
+	background: #6600ee;
+}
+
+.nav{
+	padding: 15px 0px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.left{
+	display: flex;
+}
+
+.left img{
+	width: 170px;
+	height: auto;
+	margin-right: 35px;
+}
+
+.left ul li a{
+	color: white;
+}
+
+.left ul li{
+	display: inline-block;
+	line-height: 2.7;
+	margin: 0px 20px;
+	font-family: 'Roboto', sans-serif;
+	font-size: 16px;
+
+
+}
+
+.right button{
+	background-color: #12b7cb;
+    border: none;
+    width: 94px;
+    height: 40px;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+/****************************
+
+		Section 2 Css
+
+*****************************/
+.head2{
+	width: 100%;
+	height: 100vh;
+	background-image: url(../img/lighthouse-g9cba67081_1920.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+
+.nav2{
+	font-family: 'Roboto', sans-serif;
+	padding-top: 150px;
+}
+
+.nav2 h1{
+	font-size: 52px;
+	color: white;
+	font-weight: bold;
+	margin-bottom: 30px;
+}
+
+.nav2 p{
+	font-size: 26px;
+	color: white;
+	margin-right: 600px;
+	margin-bottom: 40px;
+}
+
+.nav2 button{
+	background-color: #12b7cb;
+    border: none;
+    width: 170px;
+    height: 50px;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    border-radius: 4px;
+    font-size: 16px;
+    margin-top: 15px;
+}
+
